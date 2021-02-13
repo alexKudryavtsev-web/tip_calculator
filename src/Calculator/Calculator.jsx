@@ -4,17 +4,18 @@ import AmountField from './AmountField'
 import TypeField from './TypeField'
 import PeopleField from './PeopleField'
 import Answer from './Answer'
+import './style.css'
 
 function Calculator() {
-    const [amount, setAmount] = useState(100)
+    const [amount, setAmount] = useState()
     const [percent, setPercent] = useState(5)
-    const [people, setPeople] = useState(1)
+    const [people, setPeople] = useState()
 
-    return <main>
+    return <main className='Calculator'>
         <Header/>
         <AmountField amount={amount} setAmount={setAmount}/>
-        <TypeField percent={percent} setPercent={setPercent}/>
         <PeopleField people={people} setPeople={setPeople}/>
+        <TypeField percent={percent} setPercent={setPercent}/>
         <Answer amount={amount} percent={percent} people={people}/>
     </main>
 }

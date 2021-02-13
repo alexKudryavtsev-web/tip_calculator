@@ -1,7 +1,12 @@
+import './style.css'
+
 function Header() {
-    return <h1>
+    return <a
+        href='https://github.com/alexKudryavtsev-web/tip_calculator'
+        className='Header'
+    >
         Tip Calculator
-    </h1>
+    </a>
 }
 
 export default Header

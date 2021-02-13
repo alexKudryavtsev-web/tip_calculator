@@ -1,0 +1,29 @@
+.Calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.Input {
+    margin: 1em 0;
+    padding: .5em;
+    font-size: 1em;
+    outline: none;
+    border: 1px solid #111;
+}
+
+.Answer {
+    font-weight: 300;
+}
+
+.Header {
+    font-size: 2em;
+    color: #111;
+    margin: 1em 0;
+    font-weight: 500;
+}

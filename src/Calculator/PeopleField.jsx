@@ -1,5 +1,8 @@
+import './style.css'
+
 function PeopleField({people, setPeople}) {
-    return <input 
+    return <input
+        className='Input' 
         min={1}
         type='number' 
         placeholder='people'

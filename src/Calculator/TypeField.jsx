@@ -1,5 +1,8 @@
+import './style.css'
+
 function TypeField({ percent, setPercent }) {
     return <select
+        className='Input'
         defaultValue={percent}
         onChange={node => setPercent(node.target.value)}
     >
