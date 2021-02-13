@@ -4,9 +4,7 @@ import reportWebVitals from './reportWebVitals'
 import Calculator from './Calculator/Calculator'
 
 ReactDOM.render(
-  <div>
-    <Calculator/> 
-  </div>,
+  <Calculator />,
   document.getElementById('root')
 )
 
